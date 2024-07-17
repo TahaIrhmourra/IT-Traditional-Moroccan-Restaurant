@@ -1,0 +1,429 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R</title>
+    <!-- Normalizer -->
+    <link rel="stylesheet" href="Css/normalizer.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="Css/all.min.css">
+    <!-- Favicon -->
+    <link rel="icon" href="">
+    <!-- Main Design -->
+    <link rel="stylesheet" href="Css/Design.css"> 
+    <!-- JavaScript -->
+    <script defer src="JavaScript/app.js"></script>
+</head>
+<body>
+    <!-- Start header -->
+        <div class="header">
+            <div class="container">
+                <div class="header-content">
+                    <div class="links1">
+                        <ul>
+                            <div class="links-top-header">
+                                <li><a href="#" id="it">I&T&copy;</a></li>
+                            </div>
+                            <div class="socials">
+                                <li class="social-media">
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook-f fa-fw"></i>
+                                    </a>
+                                    <a href="" class="twitter">
+                                        <i class="fa-brands fa-twitter fa-fw"></i>
+                                    </a>
+                                    <a href="" class="instagram">
+                                        <i class="fa-brands fa-instagram fa-fw"></i>
+                                    </a>
+                                    <a href="" class="youtube">
+                                        <i class="fa-brands fa-youtube fa-fw"></i>
+                                    </a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="links2">
+                        <ul>
+                            <div class="links2-left-side">
+                                <li><a href="#AboutUs">ABOUT US</a></li>
+                                <li><a href="#Menu" class="del">MENU</a></li>
+                                <li><a href="#Location">LOCATION</a></li>
+                            </div>
+                            <div class="links2-right-side">
+                                <div class="open-account">
+                                    <a href="#" onclick="myfunction1()">ONLINE BOOKING</a>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- End header -->
+
+    <!-- Start Landing page -->
+
+    <div class="landing">
+        <div class="container">
+            <div class="title">
+                <h1 id="hh">I&T</h1>
+                <div class="animated-title">
+                    <div class="content-p">
+                      <span id="s">Moroccan Food is</span>
+                      <div class="move">
+                        <span id="s1">Phenomenal</span>
+                        <span id="s2">Awesome</span>
+                        <span id="s3">Tasty</span>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img src="Images/slider-home.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Images/slider-home2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="Images/slider-home3.jpg" alt="">
+                </div>
+
+                <!-- <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div> -->
+
+                <div class="navigation-manuel">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- End Landing page -->
+
+    <!-- Start Features -->
+
+    <div class="features" id="AboutUs">
+        <div class="container">
+            <div class="features-content">
+                <div class="box hidden">
+                    <h2 id="story">OUR STORY</h2>
+                    <p id="p1">Born from Passion, Established in early 2023, I&T© was the brainchild of <span id="name">IRHMOURRA TAHA</span>. Driven by a passion for sharing the vibrant flavors of Moroccan cuisine with the world, I&T© brings generations-old family recipes to life. Each dish is a delectable testament to tradition, crafted with love and the freshest ingredients.</p>
+                    <img src="Images/images1.jpg">
+                </div>
+                <div class="box hidden">
+                    <img src="Images/images3.jpg">
+                    <h2 id="mission">OUR MISSION AND WHAT WE BELIEVE IN</h2>
+                    <p id="p2">As <span id="name">IRHMOURRA TAHA's grandfather</span> used to say, "Don't fight your hunger, embrace it!" Here at I&T©, we believe that indulging in good food is a celebration of life's simple pleasures. We invite you to embark on a culinary journey through Morocco, where every bite is an explosion of flavor and a taste of heritage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Features -->
+
+    <!-- Start Benefits -->
+
+    <div class="benefits" id="Menu">
+        <div class="container">
+            <div class="benefits-content">
+                <div class="box1 hidden">
+                    <img src="Images/img-1.jpg">
+                    <h2>Tajine</h2>  
+                    <p>
+                        Beef - 30 DH <br>
+                        Lamb - 35 DH <br>
+                        Chicken - 45 DH <br>
+                        Fish - 24 DH <br>
+                        Meatballs and Eggs - 50 DH <br>
+                        Vegetables - 33 DH <br>
+                        Mrouzia - 50 DH <br>
+                        Royal - 100 DH <br>
+                    </p>
+                </div>            
+                <div class="box2 hidden">
+                    <img src="Images/img-2.jpg">
+                    <h2>Couscous</h2>  
+                    <p>
+                        Normal (Vegetables) - 60 DH  <br>
+                        Tfaya - 50 DH <br>
+                        Fish - 45 DH <br>
+                        Sweet - 35 DH <br>
+                    </p>
+                </div>            
+                <div class="box3 hidden">
+                    <img src="Images/img-3.jpg">
+                    <h2>Bastilla</h2>  
+                    <p>
+                        Chicken - 60 DH  <br>
+                        Fish - 50 DH <br>
+                        Mix - 45 DH <br>
+                        Marrakech Style - 75 DH <br>
+                    </p>
+                </div>            
+                <div class="box4 hidden">
+                    <img src="Images/img-4.jpg">
+                    <h2>Bissara</h2>  
+                    <p>
+                        Lomon - 6 DH  <br>
+                        Spicy - 7 DH <br>
+                        Mix - 12 DH <br>
+                        Royal - 20 DH <br>
+                    </p>
+                </div>            
+                <div class="box5 hidden">
+                    <img src="Images/img-5.jpg">
+                    <h2>Harira</h2>  
+                    <p>
+                        Traditional - 20 DH  <br>
+                        Spicy - 30 DH <br>
+                        With Chabakia - 27 DH <br>
+                        Royal - 40 DH <br>
+                    </p>
+                </div>   
+            </div>         
+            <div class="benefits-content2" style="direction: rtl; margin: 15px 0px;">
+                <div class="box1 hidden">
+                    <img src="Images/img-6.jpg">
+                    <h2>Atay (Moroccan Mint Tea)</h2>  
+                    <p>
+                        Classic (Small) - 8 DH <br>
+                        Classic (Medium) - 12 DH <br>
+                        Classic (Large) - 18 DH <br>
+                        Louiza (Small) - 8 DH <br>
+                        Louiza (Medium) - 12 DH <br>
+                        Louiza (Large) - 18 DH <br>
+                        Shiba (Medium) - 12 DH <br>
+                        Shiba (Large) - 18 DH <br>
+                    </p>
+                </div>            
+                <div class="box2 hidden">
+                    <img src="Images/img-7.jpg">
+                    <h2>Coffee</h2>  
+                    <p>
+                        Nes Nes - 6 DH  <br>
+                        Noir - 7 DH <br>
+                        Mheressa - 5 DH <br>
+                        Special - 10 DH <br>
+                    </p>
+                </div>            
+                <div class="box3 hidden">
+                    <img src="Images/img-8.jpg">
+                    <h2>Soda</h2>  
+                    <p>
+                        Oulmès - 5 DH <br>
+                        Hawai - 6 DH  <br>
+                        7UP - 6 DH <br>
+                        Pom`s - 5,5 DH <br>
+                    </p>
+                </div>            
+                <div class="box4 hidden">
+                    <img src="Images/img-9.jpg">
+                    <h2>Beverages</h2>  
+                    <p>
+                        Strawberry - 6 DH  <br>
+                        Cucumber - 7 DH <br>
+                        Carrot and Orange - 12 DH <br>
+                        Royal - 20 DH <br>
+                    </p>
+                </div>            
+                <div class="box5 hidden">
+                    <img src="Images/img-10.jpg">
+                    <h2>Originals</h2>  
+                    <p>
+                        Raibi - 2.5 DH  <br>
+                        Jutos - 1 DH <br>
+                        Nectary - 3,5 DH <br>
+                        Press Up - 5 DH <br>
+                    </p>
+                </div>   
+            </div>  
+            <div class="benefits-content3">
+                <div class="box1 hidden">
+                    <img src="Images/img-11.jpg">
+                    <h2>Sweets (1Kg)</h2>  
+                    <p>
+                        Chebakia - 20 DH <br>
+                        Macroute - 18 DH <br>
+                        Fakkas - 30 DH <br>
+                        Ghriba - 15 DH <br>
+                        Briouat - 24 DH <br>
+                        Kaab Ghzalle - 35 DH <br>
+                        Masaban - 70 DH <br>
+                        Richbond - 30 DH <br>
+                    </p>
+                </div>            
+                <div class="box2 hidden">
+                    <img src="Images/img-12.jpg">
+                    <h2>Breads</h2>  
+                    <p>
+                        Khobz  - 1,5 DH  <br>
+                        Msemen - 2,5 DH <br>
+                        Harcha - 1,5 DH <br>
+                        Batbout - 2,5 DH <br>
+                    </p>
+                </div>            
+                <div class="box3 hidden">
+                    <img src="Images/img-13.jpg">
+                    <h2>Cakes</h2>  
+                    <p>
+                        Meskouta - 60 DH  <br>
+                        Sfouf (Sellou) - 50 DH <br>
+                        M`hanncha - 45 DH <br>
+                        Orange Cakes - 75 DH <br>
+                    </p>
+                </div>            
+                <div class="box4 hidden">
+                    <img src="Images/img-14.jpg">
+                    <h2>Fried Sweets</h2>  
+                    <p>
+                        Sphenje - 1.5 DH  <br>
+                        Binie - 1.5 DH <br>
+                        khringo - 10 DH <br>
+                        mix - 22 DH <br>
+                    </p>
+                </div>            
+                <div class="box5 hidden">
+                    <img src="Images/img-15.jpg">
+                    <h2>Biscuits</h2>  
+                    <p>
+                        Golden - 1,5 DH  <br>
+                        Tagger - 2 DH <br>
+                        Tango - 1,5 DH <br>
+                        Silva - 1,5 DH <br>
+                    </p>
+                </div>   
+            </div>      
+        </div>
+    </div>
+
+    <!-- End Benefits -->
+
+    <!-- Start MOBILE-app -->
+
+    <div class="mobile-app" id="Location">
+        <div class="container">
+            <div class="text hidden">
+                <h1>I&T©</h1>
+                <h2>Unforgettable Taste of Morocco Awaits</h2>
+                <p>
+                    Located Near : <br> The Football Stadium At The Forest <br> Av. El Houda, Safi
+                </p>
+            </div>
+            <div class="image hidden">
+                <img src="Images/location.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- End MOBILE-app -->
+
+    <!-- Start Form -->
+
+    <div class="form" id="OnlineBooking" style="display: none;">
+        <div class="container">
+            <div class="close-btn"><input type="button" value="Close" onclick="myfunction()"></div>
+            <div class="form-content">
+                <div class="left">
+                    <form action="Php/Database.php" method="post">
+                        <h1 id="rev">Reservation</h1>
+                        <input type="text" name="fullname" placeholder="Full Name" required>
+                        <select name="number_of_people" id="N_P" required>
+                            <option value="" disabled selected>Number of People</option>
+                            <option value="1 Person">1 Person</option>
+                            <option value="2 People">2 People</option>
+                            <option value="3 People">3 People</option>
+                            <option value="4 People">4 People</option>
+                            <option value="5 People">5 People</option>
+                            <option value="6 People">6 People</option>
+                            <option value="7 People">7 People</option>
+                            <option value="+8 People">+8 People</option>
+                        </select>
+                        <input type="date" name="date" id="InputDate" required>
+                        <select name="time" id="S_P" required>
+                            <option value="" disabled selected>Time</option>
+                            <option value="8:00">8:00</option>
+                            <option value="9:00">9:00</option>
+                            <option value="10:00">10:00</option>
+                            <option value="11:00">11:00</option>
+                            <option value="12:00">12:00</option>
+                            <option value="13:00">13:00</option>
+                            <option value="14:00">14:00</option>
+                            <option value="15:00">15:00</option>
+                            <option value="16:00">16:00</option>
+                            <option value="17:00">17:00</option>
+                            <option value="18:00">18:00</option>
+                            <option value="19:00">19:00</option>
+                            <option value="20:00">20:00</option>
+                            <option value="21:00">21:00</option>
+                            <option value="22:00">22:00</option>
+                            <option value="23:00">23:00</option>
+                        </select>
+                        <input type="submit" name="submit" value="Confirm Booking">
+                    </form>            
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Form -->
+
+    <!-- Start footer section -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="links1">
+                    <ul>
+                        <div class="links-top-header">
+                            <li><a href="#" id="it">I&T&copy;</a> ~ All Rights Reserved - 2024</li>
+                        </div>
+                        <div class="socials">
+                            <li class="social-media">
+                                <a href="">
+                                    <i class="fa-brands fa-facebook-f fa-fw"></i>
+                                </a>
+                                <a href="" class="twitter">
+                                    <i class="fa-brands fa-twitter fa-fw"></i>
+                                </a>
+                                <a href="" class="instagram">
+                                    <i class="fa-brands fa-instagram fa-fw"></i>
+                                </a>
+                                <a href="" class="youtube">
+                                    <i class="fa-brands fa-youtube fa-fw"></i>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- End footer section -->
+
+</body>
+</html>
