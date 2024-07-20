@@ -60,6 +60,15 @@ function myfunction1() {
     }
 }
 
+function drop_menu() {
+    var x = document.getElementById("drop-menu")
+    if (x.style.top === "-358px") {
+        x.style.top = "-170px"
+    } else {
+        x.style.top = "-358px";
+    }
+}
+
 //
 
 function myfunction() {
