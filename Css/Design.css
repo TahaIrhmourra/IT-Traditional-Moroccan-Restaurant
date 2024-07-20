@@ -1347,8 +1347,8 @@ ul {
 
 .form .form-content {
     background-color: rgba(255, 255, 255, 0.5);
-    width: 30%;
-    height: 65%;
+    width: 450px;
+    height: 465px;
     border-radius: 15px;
     position: absolute;
     top: 50%;
@@ -1357,15 +1357,29 @@ ul {
     align-items: center;
 }
 
+@media (max-width: 576px) {
+    .form .form-content {
+        width: 345px;
+        height: 465px;
+    }
+}
+
 .form .left form {
-    width: 396px;
-    height: 90%;
+    width: 400px;
+    height: 420px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 10px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@media (max-width: 576px) {
+    .form .left form {
+        width: 300px;
+        height: 425px;
+    }
 }
 
 .form .left form input,
@@ -1377,6 +1391,12 @@ ul {
     padding: 0px 17px;
     border: 1px solid #1258c0;
     border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+    .form .left form input, .form .left form select {
+        width: 270px;
+    }
 }
 
 .form form input::placeholder {
@@ -1392,6 +1412,12 @@ ul {
     height: 48px;
     padding: 0px;
     transition: .3s;
+}
+
+@media (max-width: 576px) {
+    .form form input[type="submit"] {
+        width: 270px;
+    }
 }
 
 .form form input[type="submit"]:hover {
